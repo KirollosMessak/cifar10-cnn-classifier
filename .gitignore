@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+
+# Trained weights are large; keep them out of git
+models/*.keras
+models/*.h5
